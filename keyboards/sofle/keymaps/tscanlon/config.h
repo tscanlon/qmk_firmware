@@ -46,3 +46,7 @@ for more options.
 #define NO_ACTION_MACRO    // 0
 #define NO_ACTION_FUNCTION // 0
 #define DISABLE_LEADER     // 0
+
+// Home Row Mods
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
