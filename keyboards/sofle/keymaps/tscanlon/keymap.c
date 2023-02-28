@@ -32,8 +32,7 @@ enum custom_layers {
     _QWERTY,
     _WORK,
     _COLEMAK,
-    _LOWER,
-    _RAISE
+    _LOWER
 };
 
 // Extra keys are added for rotary encoder support in VIA
