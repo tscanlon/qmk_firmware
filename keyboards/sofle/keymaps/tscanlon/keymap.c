@@ -85,6 +85,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_LOWER] = LAYOUT_via(
   CYCLE, KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  ,                         KC_F6  , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 ,
   KC_CAPS, KC_NO, KC_NO  , KC_BSLS, KC_LBRC , KC_GRV,   RGB_MOD,    RGB_VAI, KC_NO, KC_RBRC, KC_QUOT, KC_NO, KC_NO, KC_F12,
+  KC_NO, KC_1   , LALT_T(KC_2), LCTL_T(KC_3), LSFT_T(KC_4), LGUI_T(KC_5), KC_MUTE,       KC_NO  , RGUI_T(KC_6)    , RSFT_T(KC_7)   , RCTL_T(KC_8)  , RALT_T(KC_9)   , KC_O, KC_NO,
   KC_NO  , KC_1   , KC_2   , KC_3   , KC_4   , KC_5   , _______,    RGB_TOG, KC_6   , KC_7   , KC_8   , KC_9   , KC_0   , KC_NO ,
   _______, KC_NO , KC_NO, KC_NO, KC_MINUS, KC_EQL,      RGB_RMOD,   RGB_VAD, KC_LEFT, KC_UP, KC_DOWN, KC_LEFT, KC_NO, _______,
                   _______, _______, _______, _______, _______,           _______, _______, _______, _______, _______
